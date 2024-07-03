@@ -11,6 +11,7 @@
 		4ECC0FD22C35F5C200C58160 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FD12C35F5C200C58160 /* ContentView.swift */; };
 		4ECC0FD42C35F5C300C58160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC0FD32C35F5C300C58160 /* Assets.xcassets */; };
 		4ECC0FD82C35F5C300C58160 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC0FD72C35F5C300C58160 /* Preview Assets.xcassets */; };
+		4ECC0FE02C35F66100C58160 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FDF2C35F66100C58160 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4ECC0FD32C35F5C300C58160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ECC0FD52C35F5C300C58160 /* TriviaGameApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TriviaGameApp.entitlements; sourceTree = "<group>"; };
 		4ECC0FD72C35F5C300C58160 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ECC0FDF2C35F66100C58160 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		4ECC0FCE2C35F5C200C58160 /* TriviaGameApp */ = {
 			isa = PBXGroup;
 			children = (
+				4ECC0FE12C35FD4800C58160 /* Views */,
+				4ECC0FDE2C35F64500C58160 /* Components */,
 				4ECC0FCF2C35F5C200C58160 /* TriviaGameAppApp.swift */,
-				4ECC0FD12C35F5C200C58160 /* ContentView.swift */,
 				4ECC0FD32C35F5C300C58160 /* Assets.xcassets */,
 				4ECC0FD52C35F5C300C58160 /* TriviaGameApp.entitlements */,
 				4ECC0FD62C35F5C300C58160 /* Preview Content */,
@@ -67,6 +70,22 @@
 				4ECC0FD72C35F5C300C58160 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4ECC0FDE2C35F64500C58160 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC0FDF2C35F66100C58160 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4ECC0FE12C35FD4800C58160 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC0FD12C35F5C200C58160 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECC0FE02C35F66100C58160 /* PrimaryButton.swift in Sources */,
 				4ECC0FD22C35F5C200C58160 /* ContentView.swift in Sources */,
 				4ECC0FD02C35F5C200C58160 /* TriviaGameAppApp.swift in Sources */,
 			);

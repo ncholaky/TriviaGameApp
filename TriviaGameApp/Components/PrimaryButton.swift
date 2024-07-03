@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct PrimaryButton: View {
+    var text: String
+    var background: Color = Color("AccentColor")
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(text)
+            .foregroundColor(.white)
+            .padding(.horizontal)
+            .background(background)
+            .cornerRadius(30)
+            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
     }
 }
 
-#Preview {
-    PrimaryButton()
+struct PrimaryButton_Previews: PreviewProvider {
+    static var previews: some View{
+        PrimaryButton(text: "Next")
+    }
+    
 }
+
