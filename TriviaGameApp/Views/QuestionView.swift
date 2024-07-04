@@ -19,6 +19,8 @@ struct QuestionView: View {
                     .fontWeight(.heavy)
             }
             
+            ProgressBar(progress: 40)
+            
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
