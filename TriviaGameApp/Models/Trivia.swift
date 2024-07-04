@@ -36,17 +36,20 @@ struct Trivia: Decodable {
         //our custom array of Answers. We can centralize right and wrong questions in just one place
         var answers: [Answer] {
             do {
-              let correct =  [ Answer(text: try AttributedString(markdown: correctAnswer), isCorrect: true)]
-            let incorrects = try incorrectAnswers.map { answer in
+                let correct =  [ Answer(text: try AttributedString(markdown: correctAnswer), isCorrect: true)]
+                let incorrects = try incorrectAnswers.map { answer in
                     Answer(text:try AttributedString (markdown: answer), isCorrect: false)
                 }
                 
                 let allAnswers = correct + incorrects
                 
+                //if we don't shuffle the answers, the right ones will always be the first
+                return allAnswers.shuffled()
+                
             } catch {
                 print("Error setting answers: \(error)")
                 return []
             }
+        }
     }
 }
-
