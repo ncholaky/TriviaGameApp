@@ -13,8 +13,10 @@ struct PrimaryButton: View {
     
     var body: some View {
         Text(text)
+            .font(.system(size: 20, weight: .bold))
             .foregroundColor(.white)
-            .padding(.horizontal)
+            .padding(.horizontal, 40)
+            .padding(.vertical, 20)
             .background(background)
             .cornerRadius(30)
             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

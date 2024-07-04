@@ -13,7 +13,7 @@ struct AnswerRow: View {
     
     var green = Color(hue: 0.437, saturation: 0.711, brightness: 0.711)
     
-    var red = Color(red: 0.71, green: 0.894, blue: 0.1)
+    var red = Color(red: 0.71, green: 0.094, blue: 0.1)
     
     var body: some View {
         HStack (spacing: 20){
