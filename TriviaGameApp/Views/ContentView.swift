@@ -21,7 +21,12 @@ struct ContentView: View {
                         .foregroundColor(Color("AccentColor"))
                     
                 }
-                PrimaryButton(text:"Let's go!")
+                NavigationLink {
+                    TriviaView()
+                }label: {
+                    PrimaryButton(text:"Let's go!")
+                }
+                
                 
             }
             .frame(maxWidth:.infinity, maxHeight: .infinity)
