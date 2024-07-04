@@ -21,6 +21,13 @@ struct QuestionView: View {
             
             ProgressBar(progress: 40)
             
+            VStack(alignment: .leading, spacing: 20){
+                Text("Which of the following countries is within the Eurozone but outside of the Schengen Area?")
+                    .font(.system(size:20))
+                    .bold()
+                    .foregroundColor(.gray)
+            }
+            
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
