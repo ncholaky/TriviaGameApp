@@ -17,6 +17,7 @@
 		4ECC0FE72C3685D500C58160 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FE62C3685D500C58160 /* ProgressBar.swift */; };
 		4ECC0FEA2C368BCB00C58160 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FE92C368BCB00C58160 /* Answer.swift */; };
 		4ECC0FEC2C368E5B00C58160 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FEB2C368E5B00C58160 /* AnswerRow.swift */; };
+		4ECC0FEE2C36A6D000C58160 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FED2C36A6D000C58160 /* TriviaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4ECC0FE62C3685D500C58160 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		4ECC0FE92C368BCB00C58160 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		4ECC0FEB2C368E5B00C58160 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		4ECC0FED2C36A6D000C58160 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4ECC0FD12C35F5C200C58160 /* ContentView.swift */,
 				4ECC0FE42C36837C00C58160 /* QuestionView.swift */,
+				4ECC0FED2C36A6D000C58160 /* TriviaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ECC0FE52C36837C00C58160 /* QuestionView.swift in Sources */,
+				4ECC0FEE2C36A6D000C58160 /* TriviaView.swift in Sources */,
 				4ECC0FE02C35F66100C58160 /* PrimaryButton.swift in Sources */,
 				4ECC0FEC2C368E5B00C58160 /* AnswerRow.swift in Sources */,
 				4ECC0FD22C35F5C200C58160 /* ContentView.swift in Sources */,
