@@ -13,6 +13,7 @@
 		4ECC0FD82C35F5C300C58160 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC0FD72C35F5C300C58160 /* Preview Assets.xcassets */; };
 		4ECC0FE02C35F66100C58160 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FDF2C35F66100C58160 /* PrimaryButton.swift */; };
 		4ECC0FE32C35FEA400C58160 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FE22C35FEA400C58160 /* Extensions.swift */; };
+		4ECC0FE52C36837C00C58160 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FE42C36837C00C58160 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4ECC0FD72C35F5C300C58160 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4ECC0FDF2C35F66100C58160 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		4ECC0FE22C35FEA400C58160 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4ECC0FE42C36837C00C58160 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				4ECC0FD12C35F5C200C58160 /* ContentView.swift */,
+				4ECC0FE42C36837C00C58160 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECC0FE52C36837C00C58160 /* QuestionView.swift in Sources */,
 				4ECC0FE02C35F66100C58160 /* PrimaryButton.swift in Sources */,
 				4ECC0FD22C35F5C200C58160 /* ContentView.swift in Sources */,
 				4ECC0FD02C35F5C200C58160 /* TriviaGameAppApp.swift in Sources */,
