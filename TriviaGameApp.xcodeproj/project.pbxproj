@@ -19,6 +19,7 @@
 		4ECC0FEC2C368E5B00C58160 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FEB2C368E5B00C58160 /* AnswerRow.swift */; };
 		4ECC0FEE2C36A6D000C58160 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FED2C36A6D000C58160 /* TriviaView.swift */; };
 		4ECC0FF02C36AAA000C58160 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FEF2C36AAA000C58160 /* Trivia.swift */; };
+		4ECC0FF22C3736C100C58160 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC0FF12C3736C100C58160 /* TriviaManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4ECC0FEB2C368E5B00C58160 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		4ECC0FED2C36A6D000C58160 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
 		4ECC0FEF2C36AAA000C58160 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		4ECC0FF12C3736C100C58160 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				4ECC0FD52C35F5C300C58160 /* TriviaGameApp.entitlements */,
 				4ECC0FD62C35F5C300C58160 /* Preview Content */,
 				4ECC0FE22C35FEA400C58160 /* Extensions.swift */,
+				4ECC0FF12C3736C100C58160 /* TriviaManager.swift */,
 			);
 			path = TriviaGameApp;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				4ECC0FEE2C36A6D000C58160 /* TriviaView.swift in Sources */,
 				4ECC0FF02C36AAA000C58160 /* Trivia.swift in Sources */,
 				4ECC0FE02C35F66100C58160 /* PrimaryButton.swift in Sources */,
+				4ECC0FF22C3736C100C58160 /* TriviaManager.swift in Sources */,
 				4ECC0FEC2C368E5B00C58160 /* AnswerRow.swift in Sources */,
 				4ECC0FD22C35F5C200C58160 /* ContentView.swift in Sources */,
 				4ECC0FEA2C368BCB00C58160 /* Answer.swift in Sources */,
