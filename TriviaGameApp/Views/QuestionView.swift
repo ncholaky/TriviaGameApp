@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct QuestionView: View {
+    @EnvironmentObject var triviaManager :  TriviaManager
     var body: some View {
         VStack (spacing: 40) {
             HStack {
@@ -43,7 +44,9 @@ struct QuestionView: View {
         .navigationBarHidden(true)
     }
 }
-
-#Preview {
-    QuestionView()
+struct QuestionView_Previews: PreviewProvider {
+    static var previews: some View {
+        QuestionView()
+            .environmentObject(TriviaManager())
+    }
 }

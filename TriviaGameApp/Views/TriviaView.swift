@@ -13,6 +13,9 @@ struct TriviaView: View {
     }
 }
 
-#Preview {
-    TriviaView()
+struct TriviaView_Previews: PreviewProvider {
+    static var previews: some View {
+        TriviaView()
+            .environmentObject(TriviaManager())
+    }
 }

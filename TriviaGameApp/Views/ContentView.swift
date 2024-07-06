@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    //creates a new instance of an observableObject
+    @StateObject var triviaManager = TriviaManager()
+    
+    
     var body: some View {
         
        NavigationView{
